@@ -1,7 +1,15 @@
 # schema-validation-example
 ajv schema validation
 
-it will throw validation errors:
+# Usage in Frontend
+
+- it will throw 4 validation errors
+- the errors need to be mapped onto form fields 
+  - mapping-errors: 
+  - "dataPath" tells location in the json-tree and name of form field
+  - "schemaPath": can be ignored for now
+  - "message": can be customized - see: https://github.com/epoberezkin/ajv-i18n
+
 
 ```js
 [
